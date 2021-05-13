@@ -12,6 +12,7 @@ body{
     background-image: url('placeMat.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: auto 100%;
 }
 
 .board{
@@ -66,8 +67,6 @@ body{
 .cell.circle::before{
     background-color: black;
 }
-
-
 
 .board.x .cell:not(.x):not(.circle):hover::before,
 .board.x .cell:not(.x):not(.circle):hover::after,
